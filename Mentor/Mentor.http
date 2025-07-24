@@ -1,0 +1,6 @@
+@Mentor_HostAddress = http://localhost:5147
+
+GET {{Mentor_HostAddress}}/Home/
+Accept: application/json
+
+###

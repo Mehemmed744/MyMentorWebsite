@@ -1,0 +1,22 @@
+﻿@model List<MentorUi.DtosofUi.HomeDtos.HomeDtos>
+
+    @foreach (var item in Model)
+{
+    <section id="hero" class="hero section dark-background">
+
+
+        <img src=@item.Title alt="" data-aos="fade-in">
+
+
+        <div class="container">
+            <h2 data-aos="fade-up" data-aos-delay="100">@item.Description</h2>
+            <p data-aos="fade-up" data-aos-delay="200">We are team of talented mentor</p>
+            <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+                <a href="/Mentor-1.0.0/courses.html" class="btn-get-started">Get Started</a>
+            </div>
+        </div>
+        </section>
+        
+    }
+
+

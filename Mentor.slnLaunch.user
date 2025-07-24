@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Mentor\\Mentor.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MentorUi\\MentorUi.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
